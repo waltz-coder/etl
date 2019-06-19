@@ -1,0 +1,72 @@
+{
+  "type": "record",
+  "name": "RunRecord",
+  "namespace": "com.waltz",
+  "fields": [
+    {
+      "name": "remote_addr",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "remote_user",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "request_timestamp",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "remote_timezone",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "method",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "http_url",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "http_version",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "status_code",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "body_bytes_sent",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "http_referer",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "user_agent",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "x_forwarded_for",
+      "type": "string",
+      "default": "null"
+    },
+    {
+      "name": "region",
+      "type": "string",
+      "default": "null"
+    }
+  ]
+}
